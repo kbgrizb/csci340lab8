@@ -21,9 +21,20 @@ namespace RazorPagesMovie.Pages_Concerts
 
         public IList<Concert> Concert { get;set; } = default!;
 
+    [BindProperty(SupportsGet = true)]
+    public string? SearchString { get; set; }
+
+
         public async Task OnGetAsync()
-        {
-            Concert = await _context.Concert.ToListAsync();
-        }
+{
+    var movies = from m in _context.Concert
+                 select m;
+    if (!string.IsNullOrEmpty(SearchString))
+    {
+        movies = movies.Where(s => s.Artist.Contains(SearchString));
+    }
+
+    Concert = await movies.ToListAsync();
+}
     }
 }
