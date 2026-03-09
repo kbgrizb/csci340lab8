@@ -1,14 +1,22 @@
 is_global = true
 build_property.TargetFramework = net10.0
-build_property.TargetFrameworkIdentifier = .NETCoreApp
-build_property.TargetFrameworkVersion = v10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = RazorPagesMovie
 build_property.RootNamespace = RazorPagesMovie
 build_property.ProjectDir = C:\Users\lurks\csci340lab8\RazorPagesMovie\
@@ -21,6 +29,26 @@ build_property.MSBuildProjectDirectory = C:\Users\lurks\csci340lab8\RazorPagesMo
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/lurks/csci340lab8/RazorPagesMovie/Pages/Concerts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uY2VydHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lurks/csci340lab8/RazorPagesMovie/Pages/Concerts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uY2VydHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lurks/csci340lab8/RazorPagesMovie/Pages/Concerts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uY2VydHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lurks/csci340lab8/RazorPagesMovie/Pages/Concerts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uY2VydHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lurks/csci340lab8/RazorPagesMovie/Pages/Concerts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uY2VydHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/lurks/csci340lab8/RazorPagesMovie/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
